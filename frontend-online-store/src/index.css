@@ -1,0 +1,32 @@
+.sectionProducts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-between;
+  margin: 1%;
+  border: 1px solid black;
+}
+
+.subproduct {
+  display: flex;
+  flex-direction: column;
+}
+
+.corpo {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.corpo ul {
+  padding: 0
+}
+
+.corpoSearch {
+  width: 80%;
+}
